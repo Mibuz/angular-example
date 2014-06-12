@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="CineApp">
+  <head>
+    <title>Cine</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/movies">Movies</a></li>
+      </ul>
+      <ng-view></ng-view>
+    </div>
+    <script src="/js/vendor/angular.js"></script>
+    <script src="/js/vendor/angular-route.js"></script>
+    <script src="/js/vendor/angular-resource.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/services/services.js"></script>
+    <script src="/js/controllers/pages/HomeController.js"></script>
+    <script src="/js/controllers/movies/IndexController.js"></script>
+    <script src="/js/controllers/movies/ShowController.js"></script>
+  </body>
+</html>
